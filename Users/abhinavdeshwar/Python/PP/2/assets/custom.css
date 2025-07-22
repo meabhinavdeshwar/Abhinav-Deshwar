@@ -1,0 +1,59 @@
+/* Custom styling for supply-chain forecasting app */
+
+.card-header {
+    background: linear-gradient(135deg, #ff7f0e, #1f77b4);
+    color: #fff;
+    font-weight: 600;
+}
+
+.card.step-2 .card-header {
+    background: linear-gradient(135deg, #1f77b4, #17becf);
+}
+
+.card.step-3 .card-header {
+    background: linear-gradient(135deg, #2ca02c, #98df8a);
+}
+
+.card.step-4 .card-header {
+    background: linear-gradient(135deg, #d62728, #ff9896);
+}
+
+.btn-add {
+    background-color: #1f77b4;
+    color: #fff;
+}
+
+.btn-add:hover {
+    filter: brightness(90%);
+    color: #fff;
+}
+
+.btn-clear {
+    background-color: #d62728;
+    color: #fff;
+}
+
+.btn-clear:hover {
+    filter: brightness(90%);
+    color: #fff;
+}
+
+.table-sm {
+    font-size: 0.9rem;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+
+.dash-table-container .dash-spreadsheet-container th {
+    font-size: 0.9rem;
+}
+
+.dash-table-container .dash-spreadsheet-container td {
+    font-size: 0.9rem;
+}
+
+.step-card {
+    margin-bottom: 1rem;
+}

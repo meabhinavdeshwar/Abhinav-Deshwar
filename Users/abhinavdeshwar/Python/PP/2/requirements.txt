@@ -1,0 +1,7 @@
+dash>=2.11
+plotly>=5
+pandas
+numpy
+statsmodels
+pmdarima; sys_platform != 'darwin' or platform_machine != 'arm64'
+dash-bootstrap-components>=1.5
